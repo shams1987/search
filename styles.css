@@ -67,3 +67,66 @@ a:active {
     cursor: pointer;
     user-select: none;
 }
+
+/* advanced search */
+/* title */
+.adv-title {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+/* grey linie */
+.grey-line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+/* label heading */
+.adv-label {
+    font-size: 16px;
+    font-family: arial;
+    color: #333333;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+/* all labels and text boxes */
+.row-input {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+/* labels */
+.labels {
+    width: 200px;
+}
+
+/* textboxes */
+.textboxes {
+    width: 400px;
+}
+
+/* <p> textbox labels */
+.p-adv {
+    font-size: 13px;
+    font-family: arial;
+    color: #222222;
+}
+
+/* button on advanced page */
+.btn-adv {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.btn-adv-div {
+    display: flex;
+    justify-content: flex-end;
+    width: 640px;
+    margin-top: 20px;
+}
