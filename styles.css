@@ -51,6 +51,10 @@ a:active {
     max-width: 584px;
 }
 
+.text-field:hover {
+    box-shadow: 0 0 5px grey;
+}
+
 .btn-search {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
@@ -68,17 +72,36 @@ a:active {
     user-select: none;
 }
 
+.btn-search:hover {
+    box-shadow: 0 0 5px grey;
+}
+
 /* advanced search */
+.adv-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.adv-img {
+    width: 74px;
+    height: 24px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 /* title */
 .adv-title {
     color: #d93025;
     font-size: 20px;
+    font-family: arial;
     margin: 25px 35px;
 }
 
 /* grey linie */
 .grey-line {
     border-bottom: 1px solid #ebebeb;
+    margin-bottom: 40px;
 }
 
 /* label heading */
@@ -86,8 +109,12 @@ a:active {
     font-size: 16px;
     font-family: arial;
     color: #333333;
-    margin-top: 60px;
-    margin-left: 40px;
+}
+
+.r-adv {
+    font-size: 11px;
+    font-family: arial;
+    color: #555555;
 }
 
 /* all labels and text boxes */
@@ -100,13 +127,17 @@ a:active {
 }
 
 /* labels */
-.labels {
+.left {
     width: 200px;
 }
 
 /* textboxes */
-.textboxes {
-    width: 400px;
+.middle {
+    width: 572px;
+}
+
+.right {
+    margin-left: 20px;
 }
 
 /* <p> textbox labels */
@@ -114,6 +145,14 @@ a:active {
     font-size: 13px;
     font-family: arial;
     color: #222222;
+}
+
+/* to do title */
+.p-todo {
+    font-size: 13px;
+    font-family: arial;
+    font-weight: 700;
+    color: #777777;
 }
 
 /* button on advanced page */
